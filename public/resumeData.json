@@ -1,122 +1,161 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "name": "Un-quo",
+    "occupation": "Building UNQUO",
+    "description": "Driving process-driven solutions",    
+    "image": "./portfolio/profilepic.png",
+    "contactmessage": "Get in touch with me!",
+    "email": "cgandhi@unquo.in",
+    "phone": "",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "",
+    "resumedownload": "",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/chintan-gandhi-002774a",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/chints87",
+        "className": "fa fa-github"
+      }
+    ],
+    "sections": [
+      {
+        "id":"1",
+        "image": "/images/section/sketch.jpg",
+        "title": "sketch",
+        "description": "Ideas spring up in unexpected places and situations. Given its transient nature, they tend to get lost or forgotten over time. Sketching establishes a mindset for spontaniety, where I help you nurture ideas, assimilate them, and converge on a central concept and build further."
       },
       {
-        "name": "github",
-        "url": "https://github.com/PapaReact",
-        "className": "fa fa-github"
+        "id":"2",
+        "image": "/images/section/design.png",
+        "title": "design",
+        "description": "The sketching phase helps to map out prototypes. As details are etched out for user flow, new insights come into the fore that restrict user decision-making to achieve objectives. These are resolved in this phase at a cheaper cost for time and energy."
+      },
+      {
+        "id":"3",
+        "image": "/images/section/build.png",
+        "title": "build",
+        "description": "I use ReactJS and NextJS to design the front-end. I focus on fuctionality to achieve user objective before implementing visual design elements - the wow factor! At the end of this, I hand you a fully functional front-end with APIs that is optimized for web performance."
+        
       }
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "",
+        "degree": "",
+        "graduated": "",
+        "description": ""
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "",
+        "title": "",
+        "years": "",
+        "description": ""
       }
     ],
-    "skills": [
+    "techSkills": [
       {
-        "name": "ReactJs",
+        "name": "HTML",
         "level": "100%"
       },
       {
-        "name": "Python",
-        "level": "85%"
+        "name": "CSS",
+        "level": "100%"
+      },     
+      {
+        "name": "SASS",
+        "level": "99%"
       },
       {
-        "name": "Git",
-        "level": "70%"
+        "name": "ReactJS",
+        "level": "100%"
       },
       {
         "name": "JavaScript",
         "level": "99%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
-      }
+        "name": "Strapi",
+        "level": "100%"
+      },
+      {
+        "name": "Firebase",
+        "level": "100%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      }     
+      
+    ],
+    "Softskills": [
+      {
+        "name": "Creativity",
+        "level": "100%"
+      },
+      {
+        "name": "Empathy",
+        "level": "100%"
+      },     
+      {
+        "name": "Problem Solving",
+        "level": "99%"
+      }      
+      
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "HandForHandmade",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "handforhandmade.png",
+        "url": "https://www.handforhandmade.org/"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Events",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "handforhandmade.png",
+        "url": ""
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Clothing Store",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "clothingStore.png",
+        "url": "https://clothincrwn-live.herokuapp.com/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "",
+        "user": ""
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "",
+        "user": ""
       }
     ]
   }
 }
+
+

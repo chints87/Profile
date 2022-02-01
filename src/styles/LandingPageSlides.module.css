@@ -1,0 +1,60 @@
+.slide{
+    position: relative;
+    width: auto;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    min-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.card{
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 1.5rem;
+    bottom: 0;
+    left: 0;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem 1rem 2rem;
+    text-align: left;
+    opacity: .85;
+
+}
+
+.cardTitle{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-top: 0.5rem;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: 1rem;
+
+}
+
+.cardDescription{
+    opacity: 1;
+    color: #fff;
+
+}
+
+ @media screen and (min-width:748px){
+    .description{
+        width: 40%;
+        text-align: center;
+        padding: 1rem;
+        /* margin-top: 2rem; */
+        /* bottom: 1rem; */
+    }
+} 
+

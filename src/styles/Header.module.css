@@ -1,0 +1,36 @@
+.homePage{
+    height: 100vh;
+    padding: 0 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navItems{
+    display: flex;
+}
+
+
+.socialIcons{
+    display: flex;
+}
+
+.description{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 6rem;
+    padding-left: 1rem;
+}
+
+.companyName{
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-right: 2rem;
+}

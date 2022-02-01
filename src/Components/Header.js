@@ -1,12 +1,12 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import styles from '../styles/Header.module.css';
+import SlideShow from './SlideShow';
 
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
-    var occupation = data.occupation;
     var description = data.description;
-    var city = data.address.city;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -16,10 +16,13 @@ const Header = ({ data }) => {
         </li>
       );
     });
+    var slideshow =  <SlideShow slides={data.sections} type="Landing Page"/>
+    
+  
   }
 
   return (
-    <header id="home">
+    <header id="home" className={styles.homePage}>
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -28,53 +31,45 @@ const Header = ({ data }) => {
           Hide navigation
         </a>
 
-        <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#contact">
-              Contact
-            </a>
-          </li>
+        <ul id="nav" className={styles.nav}>
+          <div className={styles.navItems}>
+            <li className="current">
+              <a className="smoothscroll" href="#home">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#contact">
+                Contact
+              </a>
+            </li>
+          </div>
+          <div className={styles.socialIcons}>
+             <ul className="social">{networks}</ul>
+          </div>
+          
         </ul>
       </nav>
 
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+      <div className={styles.description}>        
+          <h1 className={styles.companyName}>
+            <TypeWriter typing={0.5}>{name ? `${name}` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
-          </h3>
-          <hr />
-          <ul className="social">{networks}</ul>
-        </div>
+            {description}
+          </h3>   
       </div>
-
+      {slideshow}
       <p className="scrolldown">
         <a className="smoothscroll" href="#about">
           <i className="icon-down-circle"></i>

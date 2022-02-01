@@ -1,0 +1,149 @@
+.slideShow{
+    position: relative;
+    grid-column: 1/ -1;
+    width: 100%;
+    height: 70%;
+    background-color: var(--grey-05);
+    margin-top: 1.5rem;
+    overflow-x: hidden;
+   
+ }
+ 
+ @keyframes fadeInfadeOut {
+    0%{
+       opacity: 0;
+    }
+    50%,100%{
+       opacity: 1;
+    }
+ }
+ 
+ .slide{
+     display: none;
+ }
+ .slideActive{
+     position: absolute;
+     width:100%;
+     height: 100%;    
+     opacity: 1;
+     animation: fadeInfadeOut 5s ease-out;
+ }
+ 
+ .projectPreviewLeftArrow, .projectPreviewRightArrow,.rightButton, .leftButton{
+    position: absolute;
+    top: 50%;    
+    z-index: 1;
+    color: white; 
+    width: 4rem;   
+    height: 4rem;
+    border-radius: 100%;
+    /* border: 1.5px solid var(--grey-04); */
+    background-color: black;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .projectPreviewRightArrow,.rightButton{
+    right: 2rem;
+ }
+ 
+ .projectPreviewLeftArrow,.leftButton{
+    left: 2rem;
+    
+ }
+ 
+ .projectPreviewRightArrow:hover, .rightButton:hover, 
+ .projectPreviewLeftArrow:hover, .leftButton:hover{
+    position: absolute;
+    top: 50%;   
+    opacity: 0.6;
+ }
+ 
+ 
+ .dots{   
+    position: absolute;
+    /* left: 50%; */
+    /* margin-left: -2rem; */
+    bottom: 2rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; 
+ }
+ 
+ .dot, .dotActive{
+    height: 0.85rem;
+    width: 0.85rem;   
+    margin: 0 0.5rem;  
+    border-radius: 50%;   
+    background-color: var(--grey-03); 
+    border-radius: 1px solid;
+    cursor: pointer;
+ }
+ 
+ .dotActive{
+    background-color: var(--grey-01);
+ }
+ 
+ 
+ @media screen and (max-width:748px){
+    /* .dots{
+       display: none;
+    } */
+ 
+    .dot{
+       background-color: var(--grey-01); 
+    }
+ 
+    .dotActive{
+       background-color: var(--grey-02); 
+    }
+ 
+    /* .rightButton, .leftButton{
+       display: none;
+    } */
+ 
+    .projectPreviewLeftArrow{
+       position: absolute;
+       top:90%;
+       left: 4rem;        
+       z-index: 1;
+       color: white; 
+       font-size: 4rem;   
+       border-radius: 50%;
+       /* border: 1.5px solid var(--grey-04); */
+       background-color: black;
+       opacity: 0.2;
+    }
+ 
+    .projectPreviewRightArrow{
+       position: absolute;
+       top:90%;
+       right: 4rem;      
+       z-index: 1;
+       color: white; 
+       font-size: 4rem;   
+       border-radius: 50%;
+       /* border: 1.5px solid var(--grey-04); */
+       background-color: black;
+       opacity: 0.2;
+    }
+ 
+    .projectPreviewLeftArrow:hover,
+    .projectPreviewRightArrow:hover{
+       top:90%;
+    }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
