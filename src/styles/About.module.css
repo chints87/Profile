@@ -18,5 +18,18 @@
 }
 
 .emphasize{
-    color: white;
+    color: #ffffff;
+}
+
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip{
+    padding: 0.5rem 2rem;
+    margin-right: 2rem;
+    border-radius: 1.5rem;
+    background-color: white;
 }

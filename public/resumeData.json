@@ -47,115 +47,117 @@
         "description": "I use ReactJS and NextJS to design the front-end. I focus on fuctionality to achieve user objective before implementing visual design elements - the wow factor! At the end of this, I hand you a fully functional front-end with APIs that is optimized for web performance."
         
       }
-    ]
-  },
-  "resume": {
-    "skillmessage": "",
-    "education": [
-      {
-        "school": "",
-        "degree": "",
-        "graduated": "",
-        "description": ""
-      }
-    ],
-    "work": [
-      {
-        "company": "",
-        "title": "",
-        "years": "",
-        "description": ""
-      }
-    ],
-    "techSkills": [
-      {
-        "name": "HTML",
-        "level": "100%"
+    ],  
+    "resume": {
+      "skillmessage": "",
+      "education": [
+        {
+          "school": "",
+          "degree": "",
+          "graduated": "",
+          "description": ""
+        }
+      ],
+      "work": [
+        {
+          "company": "",
+          "title": "",
+          "years": "",
+          "description": ""
+        }
+      ],
+      "techSkills": [
+        {
+          "name": "HTML",
+          "level": "100%"
+        },
+        {
+          "name": "CSS",
+          "level": "100%"
+        },     
+        {
+          "name": "SASS",
+          "level": "99%"
+        },
+        {
+          "name": "ReactJS",
+          "level": "100%"
+        },
+        {
+          "name": "NextJS",
+          "level": "100%"
+        },
+        {
+          "name": "JavaScript",
+          "level": "99%"
+        },
+        {
+          "name": "Strapi",
+          "level": "100%"
+        },
+        {
+          "name": "Firebase",
+          "level": "100%"
+        },
+        {
+          "name": "Git",
+          "level": "70%"
+        },
+        {
+          "name": "Python",
+          "level": "85%"
+        }      
+      ],
+      "softSkills": [
+          {
+            "name": "Creativity",
+            "level": "100%"
+          },
+          {
+            "name": "Empathy",
+            "level": "100%"
+          },     
+          {
+            "name": "Problem Solving",
+            "level": "99%"
+          }      
+        ]
       },
-      {
-        "name": "CSS",
-        "level": "100%"
-      },     
-      {
-        "name": "SASS",
-        "level": "99%"
-      },
-      {
-        "name": "ReactJS",
-        "level": "100%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Strapi",
-        "level": "100%"
-      },
-      {
-        "name": "Firebase",
-        "level": "100%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "Python",
-        "level": "85%"
-      }     
-      
-    ],
-    "Softskills": [
-      {
-        "name": "Creativity",
-        "level": "100%"
-      },
-      {
-        "name": "Empathy",
-        "level": "100%"
-      },     
-      {
-        "name": "Problem Solving",
-        "level": "99%"
-      }      
-      
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "HandForHandmade",
-        "category": "",
-        "image": "handforhandmade.png",
-        "url": "https://www.handforhandmade.org/"
-      },
-      {
-        "title": "Events",
-        "category": "",
-        "image": "handforhandmade.png",
-        "url": ""
-      },
-      {
-        "title": "Clothing Store",
-        "category": "",
-        "image": "clothingStore.png",
-        "url": "https://clothincrwn-live.herokuapp.com/"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "",
-        "user": ""
-      },
-      {
-        "text": "",
-        "user": ""
-      }
-    ]
+    "portfolio": {
+      "liveProjects": [
+        {
+          "title": "HandForHandmade",
+          "category": "",
+          "image": "handforhandmade.png",
+          "url": "https://www.handforhandmade.org/"
+        }       
+      ],
+      "demoProjects": [
+        
+          {
+            "title": "Clothing Store",
+            "category": "",
+            "image": "clothingStore.png",
+            "url": "https://clothincrwn-live.herokuapp.com/"
+          }
+        
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "",
+          "user": ""
+        },
+        {
+          "text": "",
+          "user": ""
+        }
+      ]
+    }
   }
 }
+
+
 
 

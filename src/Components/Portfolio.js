@@ -1,12 +1,13 @@
 import React from "react";
+import styles from '../styles/Portfolio.module.css';
 
 const Portfolio = ({ data }) => {
   if (data) {
-    var projects = data.projects.map(function (projects) {
+    var projects = data.portfolio.liveProjects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
+        <div key={projects.title} className="portfolio-item">
+          <div>
             <a href={projects.url} title={projects.title}>
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
@@ -25,17 +26,18 @@ const Portfolio = ({ data }) => {
     });
   }
 
+  console.log(data ? data.name : null);
+
   return (
     <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
+      <div className={styles.portfolio}>
+        <div>
           <h1>Check Out Some of My Works.</h1>
 
           <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
+            id="portfolio-wrapper"            
           >
-            {projects}
+            {projects? projects : null}
           </div>
         </div>
       </div>
