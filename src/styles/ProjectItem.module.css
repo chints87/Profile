@@ -1,0 +1,21 @@
+.projectItem{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.projectImage{
+    width: 600px;
+}
+
+.projectDetails{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+h2{
+    color: black;
+}

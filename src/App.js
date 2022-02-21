@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from "react";
 
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import HomePage from './Pages/Homepage';
+import {Routes,  Route } from "react-router-dom";
+import ProjectDetails from "./Components/ProjectDetails";
 
-import "./App.css";
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import About from "./Components/About";
+// import Contact from "./Components/Contact";
+// import Portfolio from "./Components/Portfolio";
+
+// import "./App.css";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -20,12 +24,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      <Header data={resumeData.main} />
-      <About data={resumeData.main} />
-      <Portfolio data={resumeData.main} />  
-      <Contact data={resumeData.main} />
-      <Footer data={resumeData.main} />
+    <div>
+      <Routes>
+        <Route path="/" element={ <HomePage data={resumeData.main} />} />
+            <Route path="/projects/:title" element={<ProjectDetails />} />
+      </Routes>     
     </div>
   );
 };
