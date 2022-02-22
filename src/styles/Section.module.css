@@ -1,0 +1,9 @@
+.section{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.section h3{
+    color: black;
+}

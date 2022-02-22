@@ -16,6 +16,18 @@ const Portfolio = ({ data }) => {
         </div>
       );
     });
+    var demoProjects = data.portfolio.demoProjects.map(function (projects) {
+      return (
+        <div key={projects.title} className="portfolio-item">
+            <ProjectItem 
+              image={projects.image} 
+              title = {projects.title} 
+              description = {projects.description} 
+              projects= {projects}
+            />
+        </div>
+      );
+    });
   }
 
   return (
@@ -25,6 +37,7 @@ const Portfolio = ({ data }) => {
           <h1>Client Projects</h1>
           <div>
             {projects? projects : null}
+            {demoProjects? demoProjects: null}
           </div>
         </div>
       </div>

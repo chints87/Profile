@@ -1,0 +1,26 @@
+.projectDetails{
+    background-color: white;
+    height: 100%;
+    
+}
+
+.banner{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 4rem;
+}
+
+.banner p {
+    max-width: 700px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+

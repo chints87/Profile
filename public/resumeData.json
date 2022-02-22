@@ -127,19 +127,41 @@
       "liveProjects": [
         {
           "title": "HandForHandmade",
+          "description": "Pan-India discovery platform which brings artisans, designers and various organizations to enable business collaborations to sustain artisan livelihood  ",
           "category": "",
           "image": "handforhandmade.png",
-          "url": "https://www.handforhandmade.org/"
+          "url": "https://www.handforhandmade.org/",
+          "section" : [
+            { "subheader" : "Low-fidelity prototype",
+              "description" : "After an initial discussion, a rough layout was sketched out and developed user flows for a mobile device on Figma. It wasn't detailed, but provided clarity and context for brainstorming and gained further insights to identify necessary features that were missing."
+            },
+            { "subheader" :"Color Schemes", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            },
+            { "subheader" :"Different experiences for different users", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            },
+            { "subheader" :"Information collection from various members", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            }
+          ]
         }       
       ],
       "demoProjects": [
+
+        {
+          "title": "Netflix Clone",
+          "category": "",
+          "image": "netflixclone.png",
+          "url": "https://clothincrwn-live.herokuapp.com/"
+        },
         
-          {
-            "title": "Clothing Store",
-            "category": "",
-            "image": "clothingStore.png",
-            "url": "https://clothincrwn-live.herokuapp.com/"
-          }
+        {
+          "title": "Clothing Store",
+          "category": "",
+          "image": "clothingStore.png",
+          "url": "https://clothincrwn-live.herokuapp.com/"
+        }
         
       ]
     },
