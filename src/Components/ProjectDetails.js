@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from '../styles/ProjectDetails.module.css';
 import Section from './Section';
@@ -8,9 +8,14 @@ export default function ProjectDetails() {
     const location = useLocation();
     const { projects } = location.state;
     console.log(projects);
+    console.log(location);
+    useEffect(() => {
+      window.scrollTo(0,0)
+    })
   return (
-    <div className={styles.projectDetails}>
-      <div className={styles.banner}>
+    <section id="home">
+      <div className={styles.projectDetails}>
+      <div className={styles.banner} >
         <h2>{projects.title}</h2>
         <p>{projects.description}</p>
         <a href='https://www.handforhandmade.org/' target="_blank" rel="noreferrer noopener">
@@ -18,11 +23,11 @@ export default function ProjectDetails() {
         </a>        
       </div>
       <div className={styles.section}>
-        {projects.section.map((section) => (
+        {projects.section? projects.section.map((section) => (
           <section>
             <Section subheader={section.subheader}  description={section.description} />
           </section>         
-        ))}
+        )) : null}
       </div>  
       
       <div className={styles.tools}>
@@ -34,5 +39,8 @@ export default function ProjectDetails() {
          </div>   
       </div>    
     </div>
+
+    </section>
+    
   )
 }

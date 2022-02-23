@@ -9,7 +9,7 @@ export default function ProjectItem({projects, title, image, description }) {
       <div className={styles.projectDetails}>
         <h2>{title}</h2>
         <p>{description}</p>
-        <Link to={`/projects/${title}`} state={{ projects }}>
+        <Link to={`/projects/${title}#home`} state={{ projects }} hash='#home'>
             <button type="button">CASE STUDY</button>    
         </Link>
        
