@@ -17,13 +17,22 @@ export default function ProjectDetails() {
             <button type="button">LIVE LINK</button>    
         </a>        
       </div>
-      <div>
+      <div className={styles.section}>
         {projects.section.map((section) => (
           <section>
             <Section subheader={section.subheader}  description={section.description} />
           </section>         
         ))}
-      </div>      
+      </div>  
+      
+      <div className={styles.tools}>
+        <h4>Tools used</h4>
+        <div className={styles.toolDisplay}>
+        {projects.tools.map((tool) =>             
+              <div className={styles.tool}>{tool}</div>
+          )}
+         </div>   
+      </div>    
     </div>
   )
 }
