@@ -22,5 +22,34 @@
     margin-top: 2rem;
 }
 
+.section{
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.tools{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.tools h4{
+    color: black;
+    text-transform: uppercase;
+}
+
+.toolDisplay{
+    display: flex;
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+.tool{
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    background-color: lightgray;
+    color: black;
+    border-radius: 1rem;
+}
+
 
 
