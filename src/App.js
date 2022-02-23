@@ -5,7 +5,7 @@ import {Routes,  Route } from "react-router-dom";
 import ProjectDetails from "./Components/ProjectDetails";
 
 // import Header from "./Components/Header";
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 // import About from "./Components/About";
 // import Contact from "./Components/Contact";
 // import Portfolio from "./Components/Portfolio";
@@ -28,7 +28,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={ <HomePage data={resumeData.main} />} />
             <Route path="/projects/:title" element={<ProjectDetails />} />
-      </Routes>     
+      </Routes>  
+      <Footer data={resumeData.main} />   
     </div>
   );
 };
