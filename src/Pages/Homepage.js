@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+
 import About from "../Components/About";
 import Contact from "../Components/Contact";
 import Portfolio from "../Components/Portfolio";
@@ -23,7 +23,6 @@ const HomePage = () => {
       <About data={resumeData.main} />
       <Portfolio data={resumeData.main} />  
       <Contact data={resumeData.main} />
-      <Footer data={resumeData.main} />
     </div>
   );
 };
