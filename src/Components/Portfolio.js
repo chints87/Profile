@@ -33,10 +33,11 @@ const Portfolio = ({ data }) => {
   return (
     <section id="portfolio">
       <div className={styles.portfolio}>
-        <div>
-          <h1>Client Projects</h1>
+        <div>          
           <div>
+            <h1>Client Projects</h1>
             {projects? projects : null}
+            <h1>Portfolio</h1>
             {demoProjects? demoProjects: null}
           </div>
         </div>

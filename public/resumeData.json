@@ -127,33 +127,67 @@
       "liveProjects": [
         {
           "title": "HandForHandmade",
-          "description": "Pan-India discovery platform which brings artisans, designers and various organizations to enable business collaborations to sustain artisan livelihood  ",
+          "description": "Designed concepts, UI and Front-End for a pan-India discovery platform which brings artisans, designers and various organizations to enable business collaborations to sustain artisan livelihood  ",
           "category": "",
           "image": "handforhandmade.png",
           "url": "https://www.handforhandmade.org/",
           "section" : [
-            { "subheader" : "Low-fidelity prototype",
-              "description" : "After an initial discussion, a rough layout was sketched out and developed user flows for a mobile device on Figma. It wasn't detailed, but provided clarity and context for brainstorming and gained further insights to identify necessary features that were missing."
+            { "subheader" : "Created constraints for focus and creativity",
+              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
             },
-            { "subheader" :"Color Schemes", 
-              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            { "subheader" :"Provided color schemes", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
             },
-            { "subheader" :"Different experiences for different users", 
-              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            { "subheader" :"Differentiate experiences", 
+              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
+              
             },
-            { "subheader" :"Information collection from various members", 
-              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from"
+            { "subheader" :"Information gathering", 
+              "description" : "The members were categorized as individuals and non-individuals. In addition, there were numerous classifications within these categories. For each classification, information requirements varied and accordingly forms were programmed to capture the required data."
+            },
+            { "subheader" :"Empathize with users", 
+              "description" : "Given this app needs to support people living in rural areas, where they are resource constrained. Images with high-resolution are data heavy that could consume all their data. In order to empathize with such users white sending or receiving data, images uploads were compressed to about 90% of their original size while maintaining quality."
+            },
+            { "subheader" :"Offline payments", 
+              "description" : "When a payment gateway could not be implemented due to certain challenges, a plan B was quickly devised and implemented. The app streamlined to complement the offline payment process."
             }
+          ],
+          "tools" : [
+            "Figma", "React", "Redux", "Axios", "Formik", "Material UI"
           ]
         }       
       ],
       "demoProjects": [
 
         {
-          "title": "Netflix Clone",
+          "title": "NetflixClone",
+          "description": "Designed concepts, UI and Front-End for a pan-India discovery platform which brings artisans, designers and various organizations to enable business collaborations to sustain artisan livelihood  ",
           "category": "",
           "image": "netflixclone.png",
-          "url": "https://clothincrwn-live.herokuapp.com/"
+          "url": "https://clothincrwn-live.herokuapp.com/",
+          "section" : [
+            { "subheader" : "Created constraints for focus and creativity",
+              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
+            },
+            { "subheader" :"Provided color schemes", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
+            },
+            { "subheader" :"Differentiate experiences", 
+              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
+            },
+            { "subheader" : "Created constraints for focus and creativity",
+              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
+            },
+            { "subheader" :"Provided color schemes", 
+              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
+            },
+            { "subheader" :"Differentiate experiences", 
+              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
+            }
+          ],
+          "tools" : [
+            "React", "Redux Toolkit", "SASS", "Firebase", "Axios"
+          ]
         },
         
         {
