@@ -1,6 +1,12 @@
 
 .heading{
-    text-align: center;    
+    color: white;
+    text-align: center;  
+    font-size: 4rem;
+}
+
+.subheader{
+    text-align: center;
 }
 
 .aboutSection{
@@ -21,6 +27,9 @@
     color: #ffffff;
 }
 
+h3{
+    margin-bottom: 3rem;
+}
 
 .skills{
     display: flex;
@@ -32,4 +41,21 @@
     margin-right: 2rem;
     border-radius: 1.5rem;
     background-color: white;
+}
+
+
+@media screen and (max-width: 821px){
+   .aboutSection{
+       flex-direction: column;
+       width: 90%;
+   }
+
+   .heading{
+       text-transform: uppercase;
+   }
+
+   .about{
+       width: 100%;
+       padding: 0 1rem;
+   }
 }

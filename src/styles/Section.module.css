@@ -7,3 +7,11 @@
 .section h3{
     color: black;
 }
+
+
+@media screen and (max-width: 821px){
+    .section{
+        width: 90%;
+    }
+    
+}

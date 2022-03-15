@@ -27,7 +27,7 @@ const About = ({ data }) => {
         <h2 className={styles.heading}>About Me</h2>
           <div className={styles.aboutSection}>
             <div className={styles.about}>
-              <h3>Get to know me!</h3>
+              <h3 className={styles.subheader}>Get to know me!</h3>
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">

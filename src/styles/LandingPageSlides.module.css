@@ -48,13 +48,22 @@
 
 }
 
- @media screen and (min-width:748px){
+ @media screen and (max-width:821px){
     .description{
         width: 40%;
         text-align: center;
         padding: 1rem;
         /* margin-top: 2rem; */
         /* bottom: 1rem; */
+    }
+
+    .card{
+        position: relative;
+        margin-left: 0;
+    }
+
+    .image{
+        min-height: 50%;
     }
 } 
 

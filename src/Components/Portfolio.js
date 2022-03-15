@@ -32,15 +32,12 @@ const Portfolio = ({ data }) => {
 
   return (
     <section id="portfolio">
-      <div className={styles.portfolio}>
-        <div>          
-          <div>
-            <h1>Client Projects</h1>
+      < div className={styles.portfolio}> 
+            <h1 className={styles.header}>Client Projects</h1>
             {projects? projects : null}
-            <h1>Portfolio</h1>
-            {demoProjects? demoProjects: null}
-          </div>
-        </div>
+            <hr className={styles.divder}/>
+            <h1 className={styles.header}>Portfolio</h1>
+            {demoProjects? demoProjects: null}        
       </div>
     </section>
   );

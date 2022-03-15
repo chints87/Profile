@@ -719,10 +719,10 @@ properly.
 
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 821px) {
 
    .row {
-	   width: 460px;
+	   width: 70%;
 	   margin: 0 auto;
       padding: 0;
 	}

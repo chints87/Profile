@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from '../styles/Contact.module.css'
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -102,11 +103,13 @@ const Contact = ({ data }) => {
                 ></textarea>
               </div>
 
-              <div>
-                <button onClick={submitForm} type="submit" className="submit">
+              <div className={ styles.buttonClass}>
+                  <button onClick={submitForm} type="submit" className={styles.submitButton}>
                   Submit
                 </button>
               </div>
+                
+   
             </fieldset>
           </form>
 
@@ -120,7 +123,7 @@ const Contact = ({ data }) => {
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
             <h4>Reach out to</h4>
-            <p className="address">
+            <p className={styles.address}>
               <span>Chintan Gandhi</span>
               <br />
               {contactEmail}

@@ -194,12 +194,12 @@ ul#nav li.current a { color: #a1a1a1; }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
-
+/* 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
-}
+} */
 #about p {
    line-height: 30px;
    color: #7A7A7A;
@@ -421,14 +421,14 @@ ul#nav li.current a { color: #a1a1a1; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+/* #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
-}
+} */
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -829,6 +829,7 @@ call-to-action .button {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
+   text-align: center;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;

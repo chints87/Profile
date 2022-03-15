@@ -65,7 +65,7 @@ const Header = ({ data }) => {
           <h1 className={styles.companyName}>
             <TypeWriter typing={0.5}>{name ? `${name}` : null}</TypeWriter>
           </h1>
-          <h3>
+          <h3 className={styles.subTitle}>
             {description}
           </h3>   
       </div>

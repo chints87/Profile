@@ -29,8 +29,31 @@
     padding-left: 1rem;
 }
 
+.companyName::before{
+    content: '';
+    display: block;
+    width: 100%;
+}
+
 .companyName{
     text-transform: uppercase;
     font-size: 6rem;
     margin-right: 2rem;
 }
+
+@media  screen and (max-width: 768px) {
+    .homePage{
+        width: 100%;
+        padding: 0;
+    }
+    .description{
+        flex-direction: column;
+    }
+    .companyName{
+        font-size: 4rem;
+    }
+    .subTitle{
+        font-size: 1.75rem;
+    }
+}
+

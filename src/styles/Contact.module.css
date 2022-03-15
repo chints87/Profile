@@ -1,0 +1,15 @@
+    
+    .buttonClass{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .submitButton{
+        background-color: black;
+        color: white
+    }
+
+    .address{
+        text-align: center;
+    }
+    

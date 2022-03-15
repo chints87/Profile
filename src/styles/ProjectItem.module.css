@@ -19,3 +19,19 @@
 h2{
     color: black;
 }
+
+@media  screen and (max-width: 821px) {
+    .projectItem{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .projectImage{
+        width: 100%;
+    }
+
+    .projectDetails{
+        margin-top: 4rem;
+    }
+    
+}
