@@ -60,10 +60,17 @@
     .card{
         position: relative;
         margin-left: 0;
+        width: 100%;
     }
 
+    .cardTitle{
+        text-align: center;
+    }
+
+
+
     .image{
-        min-height: 50%;
+        min-height: 420px;
     }
 } 
 

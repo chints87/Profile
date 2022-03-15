@@ -91,7 +91,10 @@
  }
  
  
- @media screen and (max-width:748px){
+ @media screen and (max-width:821px){
+    .slideShow{
+       height: 80%;
+    }
     /* .dots{
        display: none;
     } */
