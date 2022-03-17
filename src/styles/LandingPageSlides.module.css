@@ -11,13 +11,13 @@
 .image{
     min-height: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
 .card{
     position: absolute;
-    width: 500px;
+    width: 400px;
     height: 220px;
     background-color: #000;
     border-radius: 1.5rem;
@@ -68,9 +68,9 @@
     }
 
 
-
     .image{
-        min-height: 420px;
+        min-height: 50%;
+        /* object-fit: cover; */
     }
 } 
 

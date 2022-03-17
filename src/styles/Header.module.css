@@ -1,5 +1,4 @@
 .homePage{
-    height: 100vh;
     padding: 0 2rem;
     width: 80%;
     margin: 0 auto;
@@ -45,6 +44,7 @@
     .homePage{
         width: 100%;
         padding: 0;
+        margin-bottom: 1rem;
     }
     .description{
         flex-direction: column;
