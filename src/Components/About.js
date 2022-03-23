@@ -28,10 +28,10 @@ const About = ({ data }) => {
           <div className={styles.aboutSection}>
             <div className={styles.about}>
               <h3 className={styles.subheader}>Get to know me!</h3>
-              <p>{bio}</p>
+              <p className={styles.bio}>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2 className={styles.contactDetails}>Contact :</h2>
                   <p className="address">
                     <span>{email}</span>
                   </p>

@@ -23,7 +23,7 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; 
-         min-height: 100vh;
+         min-height: 10vh;
          width: 100%;
       
       }
@@ -32,7 +32,8 @@ body { background: #0f0f0f;
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-header {
+
+/* header {
    position: relative;
    height: 800px;
    min-height: 500px;
@@ -41,8 +42,10 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+} */
+header {
+   height: 100px;
 }
-
 /* vertically center banner section */
 header .banner {
    display: inline-block;

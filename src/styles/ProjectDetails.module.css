@@ -51,5 +51,30 @@
     border-radius: 1rem;
 }
 
+@media screen and (max-width: 821px){
+    .tools{
+        width: 90%;
+    }
+
+    .toolDisplay{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .tool{
+        margin-bottom: 1rem;
+    }
+
+    .banner{
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .banner p {
+        width: 90%;
+        font-style: italic;
+    }
+}
+
 
 

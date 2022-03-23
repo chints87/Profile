@@ -1,7 +1,12 @@
+header{
+    height: auto;
+}
+
 .homePage{
     padding: 0 2rem;
     width: 80%;
     margin: 0 auto;
+    height: auto;
 }
 
 
@@ -40,14 +45,19 @@
     margin-right: 2rem;
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 821px) {
+    header{
+        height: auto;
+    }
     .homePage{
         width: 100%;
         padding: 0;
-        margin-bottom: 1rem;
+        height: auto;
     }
     .description{
         flex-direction: column;
+        margin-top: 0;
+        padding-top: 6rem;
     }
     .companyName{
         font-size: 4rem;

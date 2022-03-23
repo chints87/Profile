@@ -187,6 +187,10 @@
 
    /* Header Styles
    -------------------------------------------------------------------- */
+
+   #header{
+      height: auto;
+   }
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;

@@ -161,40 +161,26 @@
 
         {
           "title": "NetflixClone",
-          "description": "Designed concepts, UI and Front-End for a pan-India discovery platform which brings artisans, designers and various organizations to enable business collaborations to sustain artisan livelihood  ",
+          "description": "Developed a responsive app using ReactJS, Google Firebase and Stripe payment gateway",
           "category": "",
           "image": "netflixclone.png",
+          "githubLink": "https://github.com/chints87/netflix-clone",
           "url": "https://clothincrwn-live.herokuapp.com/",
           "section" : [
-            { "subheader" : "Created constraints for focus and creativity",
-              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
+            { "subheader" : "Component design and development",
+              "description" : "Understood data flow to design application architecture, which is an iterative process, with reusable components.In addition, SASS integration made it efficient to make design changes for components"
+            },                     
+            { "subheader" :"Implemented NoSQL database using Google Firestore adn Stripe payments integration", 
+              "description" : "On a user signing up, their data was stored on a firestore database. The products, pricing and subscriptions plans served to the user were developed on Stripe. A webhook was implemented, that synchronized changes to firestore from Stripe, when a user subscribed to a product and made payment in Stripe. As a result, all latest information regarding a user's subscription were availabe at one place i.e. firestore database."
             },
-            { "subheader" :"Provided color schemes", 
-              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
-            },
-            { "subheader" :"Differentiate experiences", 
-              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
-            },
-            { "subheader" : "Created constraints for focus and creativity",
-              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
-            },
-            { "subheader" :"Provided color schemes", 
-              "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
-            },
-            { "subheader" :"Differentiate experiences", 
-              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
-            }
+            { "subheader" : "Researched and implemented APIs",
+              "description" : "In order to fetch movie data and facilitate payments, the movieDB and Stripe API were used."
+            }  
+            
           ],
           "tools" : [
-            "React", "Redux Toolkit", "SASS", "Firebase", "Axios"
+            "React", "Redux Toolkit", "SASS", "Firebase", "Axios", "Stripe Payments"
           ]
-        },
-        
-        {
-          "title": "Clothing Store",
-          "category": "",
-          "image": "clothingStore.png",
-          "url": "https://clothincrwn-live.herokuapp.com/"
         }
         
       ]
