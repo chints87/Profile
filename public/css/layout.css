@@ -204,7 +204,8 @@ ul#nav li.current a { color: #a1a1a1; }
 } */
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #c1bdbd;
+   padding: 0 1rem;
 }
 #about .profile-pic {
    position: relative;
@@ -420,7 +421,7 @@ ul#nav li.current a { color: #a1a1a1; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 60px;
    padding-bottom: 60px;
 }
 /* #portfolio h1 {
@@ -841,7 +842,7 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { margin-bottom: 30px; padding-top: 40px }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
@@ -849,6 +850,7 @@ call-to-action .button {
 	display: inline-block;
 	float: left;
    width: 26%;
+   text-align: center;
 }
 #contact input,
 #contact textarea,

@@ -39,7 +39,7 @@
 
 .toolDisplay{
     display: flex;
-    width: 60%;
+    /* width: 60%; */
     padding-bottom: 2rem;
 }
 

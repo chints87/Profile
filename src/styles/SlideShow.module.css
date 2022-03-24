@@ -1,6 +1,4 @@
 
-
-
 .slideShow{
     position: relative;
     grid-column: 1/ -1;
@@ -92,58 +90,41 @@
  }
  
  
- @media screen and (max-width:821px){
-    .slideShow{
-       height: 100%;
-    }
-    /* .dots{
-       display: none;
-    } */
+@media screen and (max-width:821px){
+   .slideShow{
+      height: 100%;
+   }
+   /* .dots{
+      display: none;
+   } */
+
+   .dot{
+      background-color: var(--grey-01); 
+   }
+
+   .dotActive{
+      background-color: var(--grey-02); 
+   }
+
+   /* .rightButton, .leftButton{
+      display: none;
+   } */
+
+   .projectPreviewLeftArrow, .projectPreviewRightArrow, .rightButton, .leftButton{
  
-    .dot{
-       background-color: var(--grey-01); 
-    }
- 
-    .dotActive{
-       background-color: var(--grey-02); 
-    }
- 
-    /* .rightButton, .leftButton{
-       display: none;
-    } */
- 
-    .projectPreviewLeftArrow{
-       position: absolute;
-       top:30%;
-       left: 4rem;        
-       z-index: 1;
-       color: white; 
-       font-size: 4rem;   
-       border-radius: 50%;
-       /* border: 1.5px solid var(--grey-04); */
-       background-color: black;
-       opacity: 0.2;
-    }
- 
-    .projectPreviewRightArrow{
-       position: absolute;
-       top:30%;
-       right: 4rem;      
-       z-index: 1;
-       color: white; 
-       font-size: 4rem;   
-       border-radius: 50%;
-       /* border: 1.5px solid var(--grey-04); */
-       background-color: black;
-       opacity: 0.2;
-    }
- 
-    .projectPreviewLeftArrow:hover,
-    .projectPreviewRightArrow:hover{
-       top:30%;
-    }
- }
- 
+      top:30%;
+
+
+   }
+
+
+
+   .projectPreviewLeftArrow:hover,
+   .projectPreviewRightArrow:hover{
+      top:30%;
+   }
+}
+
  
  
  

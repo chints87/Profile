@@ -112,18 +112,15 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #6f4f4f;
 		position: relative;
       border: none;
       float: right;
-
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
-
       position: relative;
-      top: 0px;
-      right: 30px;
+      top: 0px;   
    }
 
 	#nav-wrap > a:before,
@@ -159,29 +156,33 @@
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
 	   display: block;
-      padding: 30px 20px 48px 20px;
+      padding: 30px 30px;
       background: #1f2024;
-      margin: 0 30px;
+      /* margin: 0 30px; */
       clear: both;
+     
    }
 
    ul#nav li {
       display: block;
       height: auto;      
       margin: 0 auto; 
+      width: 100%;
       padding: 0 4%;           
-      text-align: left;
-      border-bottom: 1px solid #2D2E34;
+   
+      border-bottom: 1px solid #707175;
       border-bottom-style: dotted; 
    }
   
    ul#nav li a {  
       display: block;    
-      margin: 0;
-      padding: 0;      
-      margin: 12px 0; 
+      margin: 0; 
+      margin: 20px 0; 
+      text-align: center;
       line-height: 16px; /* reset line-height from 48px */
       border: none;
+      font-size: 2rem;
+      letter-spacing: 0.75rem;
    }  
 
 

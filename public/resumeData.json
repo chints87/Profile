@@ -170,7 +170,7 @@
             { "subheader" : "Component design and development",
               "description" : "Understood data flow to design application architecture, which is an iterative process, with reusable components.In addition, SASS integration made it efficient to make design changes for components"
             },                     
-            { "subheader" :"Implemented NoSQL database using Google Firestore adn Stripe payments integration", 
+            { "subheader" :"Implemented NoSQL database using Google Firestore and Stripe payments integration", 
               "description" : "On a user signing up, their data was stored on a firestore database. The products, pricing and subscriptions plans served to the user were developed on Stripe. A webhook was implemented, that synchronized changes to firestore from Stripe, when a user subscribed to a product and made payment in Stripe. As a result, all latest information regarding a user's subscription were availabe at one place i.e. firestore database."
             },
             { "subheader" : "Researched and implemented APIs",

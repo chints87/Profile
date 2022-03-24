@@ -65,5 +65,11 @@ header{
     .subTitle{
         font-size: 1.75rem;
     }
+    .navItems{
+        flex-direction: column;
+    }
+    .socialIcons{
+        display: block;
+    }
 }
 
