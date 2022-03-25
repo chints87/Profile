@@ -46,6 +46,11 @@
     text-align: center;
 }
 
+.email{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 821px){
    .aboutSection{

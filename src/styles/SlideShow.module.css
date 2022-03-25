@@ -5,7 +5,7 @@
     width: 100%;
     height: 550px;
     background-color: black;
-    /* margin-top: 1.5rem; */
+    /* margin-top: 2rem; */
     overflow-x: hidden;
    
  }
@@ -110,17 +110,16 @@
       display: none;
    } */
 
-   .projectPreviewLeftArrow, .projectPreviewRightArrow, .rightButton, .leftButton{
- 
+   .projectPreviewLeftArrow, .projectPreviewRightArrow, .rightButton, .leftButton{ 
       top:30%;
-
-
    }
 
 
 
    .projectPreviewLeftArrow:hover,
-   .projectPreviewRightArrow:hover{
+   .projectPreviewRightArrow:hover,
+   .rightButton:hover,
+   .leftButton:hover{
       top:30%;
    }
 }

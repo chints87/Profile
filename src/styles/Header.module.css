@@ -28,21 +28,29 @@ header{
 .description{
     display: flex;
     position: relative;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 6rem;
-    padding-left: 1rem;
+    /* margin-bottom: 2rem; */
+    height: 6rem;
+    /* padding-left: 1rem; */
 }
 
 .companyName::before{
     content: '';
     display: block;
-    width: 100%;
+    width: 250px;
+    font-size: 6rem;
 }
 
 .companyName{
     text-transform: uppercase;
     font-size: 6rem;
-    margin-right: 2rem;
+    margin-bottom: 0;
+    /* margin-right: 2rem; */
+}
+
+.subTitle{
+    padding-top: 1rem;
 }
 
 @media  screen and (max-width: 821px) {

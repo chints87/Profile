@@ -20,4 +20,9 @@
         border-radius: 0.5rem;
         
     }
+
+    .email{
+        text-decoration: underline;
+        cursor: pointer;
+    }
     

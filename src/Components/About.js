@@ -20,7 +20,11 @@ const About = ({ data }) => {
         that is followed by developing lower-fidelity protoptyes. These are then futher developed into a 
         higher-fidelty prototype to give a feel and look for the application. 
         Once the designs are finalized, these are coded and brought to life
-      </p>   
+      </p>
+      
+  const mailWindow = () => {
+    window.open('mailto:info@handforhandmade.com', '_blank');
+  };
 
   return (
     <section id="about">      
@@ -32,13 +36,13 @@ const About = ({ data }) => {
               <div className="row">
                 <div className="columns contact-details">
                   <h2 className={styles.contactDetails}>Contact :</h2>
-                  <p className="address">
-                    <span>{email}</span>
+                  <p className="address"  onClick={() => mailWindow()}>
+                    <span className={styles.email}>{email}</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href={resumeDownload} target="_blank" rel="noreferrer" className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>

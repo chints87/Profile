@@ -28,6 +28,11 @@ const Contact = ({ data }) => {
     );
   };
 
+        
+  const mailWindow = () => {
+    window.open('mailto:info@handforhandmade.com', '_blank');
+  };
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -123,10 +128,10 @@ const Contact = ({ data }) => {
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
             <h4>Reach out to</h4>
-            <p className={styles.address}>
+            <p className={styles.address} onClick={() => mailWindow()}>
               <span>Chintan Gandhi</span>
               <br />
-              {contactEmail}
+              <span className={styles.email}>{contactEmail}</span>
             
               <span>{phone}</span>
             </p>

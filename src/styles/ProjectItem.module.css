@@ -16,6 +16,10 @@
     margin: 0 2rem;
 }
 
+.projectDetails p{
+    font-style: italic;
+}
+
 h2{
     color: black;
 }
@@ -32,6 +36,10 @@ h2{
 
     .projectDetails{
         margin-top: 4rem;
+    }
+
+    .projectDetails p{
+        font-style: italic;
     }
     
 }
