@@ -5,7 +5,8 @@
 }
 
 .banner{
-    height: 400px;
+    padding: 6rem 0;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +22,12 @@
     text-align: center;
     margin-top: 2rem;
     font-style: italic;
+}
+
+.break{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
 }
 
 .section{
@@ -47,12 +54,17 @@
 .tool{
     padding: 0.5rem 1.5rem;
     margin-right: 1rem;
+    margin-bottom: 2rem;
     background-color: lightgray;
     color: black;
     border-radius: 1rem;
 }
 
 @media screen and (max-width: 821px){
+    .break{
+        width: 100%;
+    }
+    
     .tools{
         width: 90%;
     }

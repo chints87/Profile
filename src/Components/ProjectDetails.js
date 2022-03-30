@@ -19,16 +19,16 @@ export default function ProjectDetails() {
         <h2>{projects.title}</h2>
         <p>{projects.description}</p>
         <div>
-          <a href='https://www.handforhandmade.org/' target="_blank" rel="noreferrer noopener">
+          <a href={projects.url} target="_blank" rel="noreferrer noopener">
               <button type="button">LIVE LINK</button>    
           </a>
           {'  '}
-          {projects.githubLink ?<a href='https://github.com/chints87/netflix-clone' target="_blank" rel="noreferrer noopener">
+          {projects.githubLink ?<a href={projects.githubLink} target="_blank" rel="noreferrer noopener">
               <button type="button">GITHUB LINK</button>
           </a> : null }
-        </div>
-          
+        </div>          
       </div>
+      <hr className={styles.break} />
       <div className={styles.section}>
         {projects.section? projects.section.map((section) => (
           <section>

@@ -24,15 +24,14 @@ const App = () => {
       });
   }, []);
 
-  function useScrollToTop() {
-    const { pathname } = useLocation();
   
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [pathname]);
-  }
+   const { pathname } = useLocation();
 
-  useScrollToTop();
+   useEffect(() => {
+      window.scrollTo(0, 0);
+   }, [pathname]);
+  
+
   return (
     <div>
       <Routes>

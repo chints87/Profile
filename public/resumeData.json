@@ -32,19 +32,19 @@
         "id":"1",
         "image": "/images/section/sketch.jpg",
         "title": "sketch",
-        "description": "Ideas spring up in unexpected places and situations. Given its transient nature, they tend to get lost or forgotten over time. Sketching establishes a mindset for spontaniety, where I help you nurture ideas, assimilate them, and converge on a central concept and build further."
+        "description": "Sketching enables one to contextualize problems from a 20,000 feet view to minutiae details. It helps to gain perspectives over a broader scope to seek effective solutions. Over here, I understand business problems through inquiry and sketching its various components. This entails identifying and nurturing ideas; and then converging on a central concept and build further."
       },
       {
         "id":"2",
         "image": "/images/section/design.png",
         "title": "design",
-        "description": "The sketching phase helps to map out prototypes. As details are etched out for user flow, new insights come into the fore that restrict user decision-making to achieve objectives. These are resolved in this phase at a cheaper cost for time and energy."
+        "description": "The sketching phase helps to map out prototypes. As details are etched out for user flow, new insights come into the fore that restrict user decision-making to achieve objectives. These are resolved in this phase."
       },
       {
         "id":"3",
         "image": "/images/section/build.png",
         "title": "build",
-        "description": "I use ReactJS and NextJS to design the front-end. I focus on fuctionality to achieve user objective before implementing visual design elements - the wow factor! At the end of this, I hand you a fully functional front-end with APIs that is optimized for web performance."
+        "description": "I use ReactJS and NextJS to design the front-end. I focus on fuctionality to achieve user objective before implementing visual design elements. At the end of this, I hand you a fully functional front-end with APIs that is optimized for web performance."
         
       }
     ],  
@@ -133,13 +133,13 @@
           "url": "https://www.handforhandmade.org/",
           "section" : [
             { "subheader" : "Created constraints for focus and creativity",
-              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool, for a mobile device. It wasn’t detailed, but provided visuals of how it was shaping up; provided context for brainstorming; and being critical of adding features."
+              "description" : "After an initial discussion, a rough layout was sketched out and a low-fidelity prototype was developed for user flows on Figma, a sketching tool. Visuals and low details provided context for brainstorming; and being critical of adding features."
             },
             { "subheader" :"Provided color schemes", 
               "description" : "The color schemes were developed based on the logo color and its contrast colors with various hues.  The different hues of the logo and contrast colors were combined and shown to the client to choose from."
             },
             { "subheader" :"Differentiate experiences", 
-              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, limits were put in place for information access."
+              "description" : "The app would have a regular site visitor; a registered user; and a member user. For each user category - unless a member user, information access restrictions were placed."
               
             },
             { "subheader" :"Information gathering", 
@@ -165,10 +165,10 @@
           "category": "",
           "image": "netflixclone.png",
           "githubLink": "https://github.com/chints87/netflix-clone",
-          "url": "https://clothincrwn-live.herokuapp.com/",
+          "url": "https://netflix-clone-fe5ad.web.app/",
           "section" : [
             { "subheader" : "Component design and development",
-              "description" : "Understood data flow to design application architecture, which is an iterative process, with reusable components.In addition, SASS integration made it efficient to make design changes for components"
+              "description" : "Understood data flow to design application architecture, which is an iterative process, with reusable components.In addition, SASS was integreated to make efficient design changes for components"
             },                     
             { "subheader" :"Implemented NoSQL database using Google Firestore and Stripe payments integration", 
               "description" : "On a user signing up, their data was stored on a firestore database. The products, pricing and subscriptions plans served to the user were developed on Stripe. A webhook was implemented, that synchronized changes to firestore from Stripe, when a user subscribed to a product and made payment in Stripe. As a result, all latest information regarding a user's subscription were availabe at one place i.e. firestore database."

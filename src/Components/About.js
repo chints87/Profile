@@ -12,16 +12,19 @@ const About = ({ data }) => {
   }
 
   var bio = 
-      <p>Having worked in diverse cultures and fields, my experience brings a unique skill-set and 
-        perspective when designing solutions over the web. <b className={styles.emphasize}>I work both as a designer and developer
-        , which reduces the complexity of communication and faster turnaround time for you.</b><br />
-        I will brainstorm with you to get your understanding of the market and objectives of your app. 
-        The sketching process technique assimilate findings to develop overall and specific workflows
-        that is followed by developing lower-fidelity protoptyes. These are then futher developed into a 
-        higher-fidelty prototype to give a feel and look for the application. 
-        Once the designs are finalized, these are coded and brought to life
+      <p>
+        <b className={styles.emphasize}>I have an entrepreneurial spirit that seeks to create, using logic and creativity. 
+        The process of developing solutions through web applications gives me that satisfaction to create.
+        Not only has this deepened my curiosity to explore broader topics and learn about relevant areas in depth,
+        but has driven me to experiment, investigate and push boundaries.</b>
+        <br></br>
+        As a designer and developer working with you, I will brainstorm with you to get your understanding 
+        of the market and objectives of your app. The sketching process technique assimilates findings 
+        to develop overall and specific workflows that is followed by developing lower-fidelity prototypes. 
+        These are then further developed into a higher-fidelty prototype to give a feel and look for the application. 
+        Once the designs are finalized, these are coded and brought to life.      
       </p>
-      
+   
   const mailWindow = () => {
     window.open('mailto:info@handforhandmade.com', '_blank');
   };
